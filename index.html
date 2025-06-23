@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Trainer</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="img/banner.png" alt="Banner El Toro"
+      style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="templates/servicios.html">Servicios</a></li>
+      <li><a href="templates/fotos.html">Fotos</a></li>
+      <li><a href="templates/contacto.html">Contacto</a></li>
+      <li><a href="templates/biografia.html">Biografia</a></li>
+      <li><a href="templates/testimonios.html">Testimonios</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <img src="img/toro.png" alt="Logo Toro" class="logo-toro">
+  </section>
+
+  <section class="content" id="servicios">
+    <h2>Servicios</h2>
+    <p>Ofrezco entrenamientos personalizados, rutinas para ganar masa muscular, bajar de peso y mejorar tu salud integral.</p>
+  </section>
+
+  <section class="cta">
+    <button onclick="mostrarContacto()">Estoy lista</button>
+  </section>
+
+  <section class="content" id="contacto" style="display:none">
+    <h2>Tel. / Whatsapp</h2>
+    <p>12 3456 7890</p>
+    <br>
+    <h2>Instagram</h2>
+    <p>12 3456 7890</p>
+    <br>
+    <h2>Facebook</h2>
+    <p>12 3456 7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Entrenador Personal Nicolas EL TORO Portuguez. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function mostrarContacto() {
+      document.getElementById('contacto').style.display = 'block';
+      window.scrollTo({ top: document.getElementById('contacto').offsetTop, behavior: 'smooth' });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background: #1f1f1f;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+    background: #2a2a2a;
+    border-bottom: 1px solid #333;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c7c378;
+}
+
+.hero {
+    background: #181818;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+}
+
+.hero img.logo-toro {
+    width: 550px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: #1c1c1c;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content h2 {
+    color: #fff64f;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    text-align: center;
+    margin: 2rem;
+}
+
+.cta button {
+    background: #fff64f;
+    color: #121212;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta button:hover {
+    background: #ffe642;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #888;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid #333;
+}

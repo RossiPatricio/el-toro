@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Trainer</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="../img/banner.png" alt="Banner El Toro"
+            style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../templates/servicios.html">Servicios</a></li>
+            <li><a href="../templates/fotos.html">Fotos</a></li>
+            <li><a href="../templates/contacto.html">Contacto</a></li>
+            <li><a href="../templates/biografia.html">Biografia</a></li>
+            <li><a href="../templates/testimonios.html">Testimonios</a></li>
+        </ul>
+    </nav>
+
+    <section class="content" id="servicios">
+        <h2>Personal Trainer</h2>
+        <p>Nicolás El Toro no es simplemente un personal trainer; es una fuerza de la naturaleza. Sus métodos de entrenamiento son tan intensos que hacen que el entrenamiento de los Navy SEALs parezca un paseo por el parque. Con él, no solo te pones en forma, sino que te transformas en un superhumano. Cada sesión desafía las leyes de la física, y sus clientes no solo alcanzan sus metas, sino que las pulverizan. Si buscas un entrenador que te lleve más allá de tus límites y te convierta en una máquina imparable, Nicolás es el número uno en el mundo. ¡Prepárate para sudar, sufrir y triunfar como nunca antes!</p>
+        <section class="cta">
+            <button onclick="mostrarContacto()">Contratar</button>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <h2>Nutricionista</h2>
+        <p>Como nutricionista, Nicolás El Toro está en una liga propia. Sus planes alimenticios son tan avanzados que podrían convertir una bolsa de papas fritas en un superalimento. Graduado de Harvard, no es solo un experto; es un genio de la nutrición. Sus clientes no solo comen bien, sino que descubren el secreto de la eterna juventud y la vitalidad. Con Nicolás, cada bocado es un paso hacia la inmortalidad, y su conocimiento es tan vasto que podría escribir la biblia de la alimentación saludable. Si quieres transformar tu cuerpo desde adentro y sentirte como un dios, él es tu única opción.</p>
+        <section class="cta">
+            <button onclick="mostrarContacto()">Contratar</button>
+        </section>
+    </section>
+
+
+    <section class="content" id="contacto" style="display:none">
+        <h2>Tel. / Whatsapp</h2>
+        <p>12 3456 7890</p>
+        <br>
+        <h2>Instagram</h2>
+        <p>12 3456 7890</p>
+        <br>
+        <h2>Facebook</h2>
+        <p>12 3456 7890</p>
+    </section>
+
+    <script>
+        function mostrarContacto() {
+            document.getElementById('contacto').style.display = 'block';
+            window.scrollTo({ top: document.getElementById('contacto').offsetTop, behavior: 'smooth' });
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Entrenador Personal Nicolas EL TORO Portuguez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
