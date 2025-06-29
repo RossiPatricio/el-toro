@@ -26,19 +26,28 @@
     </ul>
   </nav>
 
-  <section class="content" id="servicios">
-    <h2>Advertencia</h2>
-    <p>Contenido no apto para menores de 21 años</p>
-    <br>
-    <section class="hero" id="inicio">
-      <img src="../static/img/foto1.jpeg" alt="Logo Toro" class="logo-toro">
-    </section>
+  <section class="content" id="fotos">
+    <div class="carousel">
+      <button class="carousel-btn prev">❮</button>
+      <div class="carousel-track-container">
+        <ul class="carousel-track">
+          <li class="carousel-slide current-slide">
+            <img src="../static/img/foto1.jpeg" alt="Foto 1">
+          </li>
+          <li class="carousel-slide">
+            <img src="../static/img/foto2.jpg" alt="Foto 2">
+        </ul>
+      </div>
+      <button class="carousel-btn next">❯</button>
+    </div>
+  </section>
 
   </section>
 
   <footer>
     <p>&copy; 2025 Entrenador Personal Nicolas EL TORO Portuguez. Todos los derechos reservados.</p>
   </footer>
+  <script src="../static/js/carousel.js"></script>
 </body>
 
 </html>

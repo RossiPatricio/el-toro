@@ -110,3 +110,41 @@ footer {
     margin-top: 2rem;
     border-top: 1px solid #333;
 }
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-track-container {
+  overflow: hidden;
+}
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.carousel-slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in;
+}
+.carousel-slide img {
+  width: 100%;
+  display: block;
+}
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
