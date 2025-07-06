@@ -36,7 +36,7 @@
       <li><a href="templates/testimonios.html">Testimonios</a></li>
     </ul>
   </nav>
-
+  <audio id="rugido-audio" src="static/audio/rugido.mp3"></audio>
   <section class="hero" id="inicio">
     <img src="static/img/toro.png" alt="Logo Toro" class="logo-toro">
   </section>
@@ -83,6 +83,16 @@
       splash.style.opacity = '0';
       // Al terminar la transición, lo removemos del DOM
       splash.addEventListener('transitionend', () => splash.remove());
+    });
+  </script>
+
+  <script>
+    const logo = document.querySelector('.logo-toro');
+    const audio = document.getElementById('rugido-audio');
+
+    logo.addEventListener('click', () => {
+      audio.currentTime = 0; // Reinicia el sonido si ya se reprodujo
+      audio.play();
     });
   </script>
 </body>
