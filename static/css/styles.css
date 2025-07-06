@@ -187,15 +187,22 @@ footer {
 }
 
 #splash-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* importante para apilar la imagen arriba del botón */
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#splash-image {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 20px; /* espacio entre imagen y botón */
 }
 
 #enter-button {
