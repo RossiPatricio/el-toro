@@ -10,6 +10,16 @@
 </head>
 
 <body>
+  <div id="splash">
+    <video id="splash-video" autoplay muted loop>
+      <source src="static/img/intro.mp4" type="video/mp4">
+      Tu navegador no soporta vídeo HTML5.
+    </video>
+    <div id="splash-overlay">
+      <button id="enter-button">Entrar</button>
+    </div>
+  </div>
+
   <header>
     <img src="static/img/banner.png" alt="Banner El Toro"
       style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
@@ -62,6 +72,17 @@
       document.getElementById('contacto').style.display = 'block';
       window.scrollTo({ top: document.getElementById('contacto').offsetTop, behavior: 'smooth' });
     }
+  </script>
+
+  <script>
+    document.getElementById('enter-button').addEventListener('click', function () {
+      const splash = document.getElementById('splash');
+      // Opcional: animar la salida
+      splash.style.transition = 'opacity 0.7s ease';
+      splash.style.opacity = '0';
+      // Al terminar la transición, lo removemos del DOM
+      splash.addEventListener('transitionend', () => splash.remove());
+    });
   </script>
 </body>
 
