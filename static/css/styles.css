@@ -67,6 +67,17 @@ nav ul li a:hover {
     margin-bottom: 2rem;
 }
 
+.img-wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem;
+}
+
+.img-wrapper2 img {
+    max-width: 100%;
+    height: auto;
+}
+
 .img-wrapper img {
     max-width: 100%;
     height: auto;
