@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #c7c378;
+    color: #ffeb96;
 }
 
 .hero {
@@ -103,7 +103,7 @@ nav ul li a:hover {
 }
 
 .content h2 {
-    color: #f8de69;
+    color: #ffe75d;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 .cta button {
-    background: #fff64f;
+    background: #ffe75d;
     color: #121212;
     padding: 1rem 2rem;
     border: none;
@@ -130,7 +130,7 @@ nav ul li a:hover {
 }
 
 .cta button:hover {
-    background: #ffe642;
+    background: #ffed85;;
 }
 
 footer {
@@ -233,7 +233,7 @@ footer {
 }
 
 #enter-button {
-    background: #fff64f;
+    background: #ffe75d;
     color: #121212;
     padding: 1rem 2rem;
     border: none;
@@ -245,5 +245,5 @@ footer {
 }
 
 #enter-button:hover {
-    background: #ffe642;
+    background: #ffed85;
 }
