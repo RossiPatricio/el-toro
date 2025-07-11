@@ -1,0 +1,4 @@
+Negro (fondo en tema Ónix): #000000
+Gris oscuro (fondo en tema Oscuro): #23272A Según la documentación de Discord
+Gris medio (fondo en tema Ceniza): #2c2f33
+Gris (fondo en tema Ónix): #36393e 
