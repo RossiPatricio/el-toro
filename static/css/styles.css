@@ -247,3 +247,19 @@ footer {
 #enter-button:hover {
     background: #ffed85;
 }
+
+/* Enlace no visitado */
+a:link {
+  color: var(--fg-gold);  
+}
+
+/* Enlace ya visitado */
+a:visited {
+  color: #cccccc;    
+}
+
+a:hover,
+a:focus {
+  color: var(--fg-gold-hover);
+  text-decoration: underline;
+}
