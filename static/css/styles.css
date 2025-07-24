@@ -263,3 +263,9 @@ a:focus {
   color: var(--fg-gold-hover);
   text-decoration: underline;
 }
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #888; 
+}
